@@ -98,10 +98,22 @@ pre {
  */
 
 .Header {
-  background: url(images/background.jpg);
+  background: url(images/background-small.jpg);
   background-size: cover;
   text-align: center;
   padding-bottom: 6em;
+}
+
+@media (min-width: 800px) {
+  .Header {
+    background-image: url(images/background-medium.jpg);
+  }
+}
+
+@media (min-width: 1500) {
+  .Header {
+    background-image: url(images/background-large.jpg);
+  }
 }
 
 .Header-title {
@@ -336,7 +348,7 @@ pre {
 
   .Header {
     font-size: 1.2em;
-    padding-bottom: 14%;
+    padding-bottom: 17%;
   }
 
   .Header-subtitle {

@@ -887,11 +887,23 @@ pre {
  */
 
 .Header {
-  background: url("myth.io/./images/background.jpg");
+  background: url("myth.io/./images/background-small.jpg");
   -webkit-background-size: cover;
   background-size: cover;
   text-align: center;
   padding-bottom: 6em;
+}
+
+@media (min-width: 800px) {
+  .Header {
+    background-image: url("myth.io/./images/background-medium.jpg");
+  }
+}
+
+@media (min-width: 1500) {
+  .Header {
+    background-image: url("myth.io/./images/background-large.jpg");
+  }
 }
 
 .Header-title {
@@ -1139,7 +1151,7 @@ pre {
 
   .Header {
     font-size: 1.2em;
-    padding-bottom: 14%;
+    padding-bottom: 17%;
   }
 
   .Header-subtitle {
