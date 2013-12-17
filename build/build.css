@@ -824,7 +824,7 @@ a:hover {
 
 pre {
   font: 300 12px/1.2 "Source Code", monospace;
-  color: rgb(210, 213, 227);
+  color: rgb(218, 221, 234);
 }
 
 /**
@@ -845,7 +845,7 @@ pre {
 }
 
 .Section-description {
-  color: #A5ABC7;
+  color: #B4BAD5;
   margin-bottom: 1em;
 }
 
@@ -876,7 +876,7 @@ pre {
 
 .Section-legend {
   text-align: center;
-  color: #A5ABC7;
+  color: #B4BAD5;
   margin-top: .75em;
 }
 
@@ -1033,7 +1033,7 @@ pre {
  */
 
 .Section--why .Section-description {
-  color: #A5ABC7;
+  color: #B4BAD5;
 }
 
 /**
@@ -1058,7 +1058,7 @@ pre {
 }
 
 .Footer-subtitle {
-  color: #A5ABC7;
+  color: #B4BAD5;
   font-size: .7em;
   text-transform: uppercase;
   letter-spacing: 1px;
