@@ -23,13 +23,13 @@
       <a href="/">Myth</a>
     </h1>
     <h2 class="Header-subtitle">CSS the way it was imagined.</h2>
-    <p class="Header-description">Myth is a <em>postprocessor</em> that lets you write pure CSS without having to worry about slow browser support, or even slow spec approval.<br/>It's a CSS polyfill.</p>
+    <p class="Header-description">Myth is a <em>postprocessor</em> that lets you write pure CSS without having to worry about slow browser support, or even slow spec approval.<br/>It's like a CSS polyfill.</p>
     <a class="Header-github-link" href="https://github.com/segmentio/myth">Star on GitHub</a>
   </header>
 
   <section class="Section Section--feature Section--feature-variables">
     <h1 class="Section-title">Variables</h1>
-    <p class="Section-description">Just like in the CSS spec, using the <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables">var() function</a>.</p>
+    <p class="Section-description">The same syntax from the CSS spec, using the <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables">var() function</a>.</p>
     <figure class="Section-example">
       <pre class="Section-example-code">
 <b>:root</b> {
@@ -62,7 +62,7 @@
 
   <section class="Section Section--feature Section--feature-math">
     <h1 class="Section-title">Math</h1>
-    <p class="Section-description">Just like in the CSS spec, using the <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/calc">calc() function</a>.</p>
+    <p class="Section-description">The same syntax from the CSS spec, using the <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/calc">calc() function</a>.</p>
     <figure class="Section-example">
       <pre class="Section-example-code">
 <b>pre</b> {
@@ -92,7 +92,7 @@
   color: <b>#847AD1</b>;
 }
 
-<b>a</b> {
+<b>a:hover</b> {
   color: <b>rgb(157, 149, 218)</b>;
 }</pre>
     </figure>
@@ -100,7 +100,7 @@
 
   <section class="Section Section--feature Section--feature-no-prefixes">
     <h1 class="Section-title">No Prefixes</h1>
-    <p class="Section-description">The prefixes for common browsers are automatically added, so you don't need worry.</p>
+    <p class="Section-description">Prefixes for common browsers are automatically added, so you don't need worry.</p>
     <figure class="Section-example">
       <pre class="Section-example-code">
 <b>a</b> {
@@ -127,11 +127,11 @@ $ <b>myth</b> input.css output.css
 
   <section class="Section Section--why">
     <h1 class="Section-title">Why?</h1>
-    <p class="Section-description">Myth lets you write pure CSS while still giving you the benefits of tools like LESS and Sass. You can still use variables, math functions, etc. It's a polyfill for future versions of the spec.</p>
+    <p class="Section-description">Myth lets you write pure CSS while still giving you the benefits of tools like LESS and Sass. You can still use variables and math functions, just like you do in preprocessors. It's like a polyfill for future versions of the spec.</p>
 
-    <p class="Section-description">Since you're writing valid CSS, when browsers finally support these features you won't need to rewrite your code.</p>
+    <p class="Section-description">Some of the features in CSS require runtime calculations, which neither Myth nor preprocessors handle, but what Myth does is let you write your code today in the future syntax, so that your code is future-proof. When browsers finally support these features you won't need to rewrite anything, just remove Myth and start using the cascade!</p>
 
-    <p class="Section-description">Taking plain CSS as an input also means you can use Myth to <em>post-process</em> anyone else's CSS, adding the browser support you need, without having to re-write their code in a completely different syntax.</p>
+    <p class="Section-description">Taking plain CSS as an input also means you can use Myth to <em>post-process</em> anyone else's CSS (or another preprocessor's output), adding the browser support you need, without having to re-write the code in a completely different syntax.</p>
 
     <p class="Section-description">Myth is built with <a href="https://github.com/visionmedia/rework">Rework</a> so it's incredibly fast, and has a nice Javascript API in addition to the CLI.</p>
   </section>
