@@ -21,8 +21,6 @@ body {
   font: 100 16px/1.5 "Source Sans", sans-serif;
   color: white;
   background-color: var(darker-purple);
-  overflow-x: hidden;
-  overflow-y: scroll;
 }
 
 a {
@@ -102,6 +100,7 @@ pre {
   background-size: cover;
   text-align: center;
   padding-bottom: 6em;
+  overflow: hidden;
 }
 
 @media (min-width: 800px) {
@@ -270,18 +269,18 @@ pre {
  */
 
 .Header-subtitle {
-  transition: opacity 2s ease-in-out .5s;
+  transition: opacity 1.25s ease-in-out .25s;
 }
 
 .Header-description {
-  transition: opacity 2s ease-in-out 2.5s;
+  transition: opacity 1.5s ease-in-out 1.5s;
 }
 
 .Header-github-link,
 .Section--feature .Section-title,
 .Section--feature .Section-description,
 .Section--feature .Section-example {
-  transition: opacity 2s ease-in-out 4.5s;
+  transition: opacity 1.5s ease-in-out 3s;
 }
 
 .animate .Header-subtitle,
