@@ -1,6 +1,6 @@
 
 build: node_modules components index.css
-	@./node_modules/.bin/component build
+	@./node_modules/.bin/component build --copy
 	@./node_modules/.bin/myth build/build.css build/build.css
 
 clean:
