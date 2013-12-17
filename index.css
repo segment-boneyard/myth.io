@@ -21,6 +21,8 @@ body {
   font: 100 16px/1.5 "Source Sans", sans-serif;
   color: white;
   background-color: var(darker-purple);
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 a {

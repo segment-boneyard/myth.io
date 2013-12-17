@@ -1,7 +1,6 @@
 {
-  "name": "myth-site",
+  "name": "myth.io",
   "private": true,
-  "scripts": ["index.js"],
   "styles": ["index.css"],
   "images": [
     "images/favicon.png",

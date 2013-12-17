@@ -1,29 +1,10 @@
 {
-  "name": "myth",
-  "repository": "git://github.com/segmentio/myth.git",
-  "version": "0.0.1",
-  "license": "MIT",
-  "description": "CSS the way it was imagined.",
-  "keywords": [
-    "preprocessor",
-    "postprocessor",
-    "rework",
-    "css",
-    "pure"
-  ],
+  "name": "myth.io",
+  "private": true,
   "dependencies": {
-    "rework-font-variant": "0.0.3",
-    "rework-vars": "~1.1.0",
-    "rework": "~0.18.3",
-    "autoprefixer": "~0.8.20131209",
-    "commander": "~2.1.0",
-    "stdin": "0.0.1",
-    "klei-rework-plugins": "~0.2.1",
-    "rework-hex-alpha": "0.0.2",
-    "rework-color-function": "0.0.2",
-    "colors": "~0.6.2"
-  },
-  "devDependencies": {
-    "mocha": "~1.15.1"
+    "component": "~0.18.0",
+    "hbs": "~2.4.0",
+    "express": "~3.4.7",
+    "myth": "0.0.5"
   }
 }

@@ -1,8 +1,0 @@
-
-:root {
-  var-red: #F00;
-}
-
-body {
-  color: var(red);
-}

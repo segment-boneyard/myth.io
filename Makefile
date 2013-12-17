@@ -1,18 +1,21 @@
 
+build: node_modules components index.css
+	@./node_modules/.bin/component build --dev
+	@./node_modules/.bin/myth build/build.css build/build.css
+
+clean:
+	@rm -rf build components node_modules
+
+components: component.json
+	@./node_modules/.bin/component install --dev
+
 node_modules: package.json
 	@npm install
 
-site: node_modules
-	@cd site && make
+server:
+	@foreman start
 
-server: site
-	@node site/serve.js
+test: build
+	@open ../index.html
 
-test: node_modules
-	@node_modules/.bin/mocha --reporter spec
-
-test-command: node_modules
-	@cat test/command/input.css | bin/myth
-	@bin/myth test/command/input.css test/command/output.css
-
-.PHONY: site test
+.PHONY: clean server test
