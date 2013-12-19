@@ -1,6 +1,6 @@
 # myth.io
 
-  The site for [Myth](https://github.com/segmentio/myth), the pure CSS postprocessor.
+  The site for [Myth](https://github.com/segmentio/myth), the pure CSS preprocessor.
 
 ## License
 
