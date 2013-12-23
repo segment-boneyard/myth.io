@@ -37,10 +37,6 @@ pre {
   color: color(var(light-purple) tint(50%));
 }
 
-em {
-  font-family: sans-serif;
-}
-
 /**
  * Sections.
  */
