@@ -17,7 +17,7 @@
  */
 
 body {
-  font: 300 16px/1.5 "Source Sans Pro", sans-serif;
+  font: 300 16px/1.5 "Source Sans", "Source Sans Pro", sans-serif;
   color: white;
   background-color: var(darker-purple);
 }
@@ -33,7 +33,7 @@ a:hover {
 }
 
 pre {
-  font: 300 12px/1.2 "Source Code Pro", monospace;
+  font: 300 12px/1.2 "Source Code", "Source Code Pro",  monospace;
   color: color(var(light-purple) tint(50%));
 }
 
