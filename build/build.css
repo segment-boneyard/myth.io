@@ -806,7 +806,7 @@ pre {
  */
 
 body {
-  font: 300 16px/1.5 "Source Sans", sans-serif;
+  font: 300 16px/1.5 "Source Sans", "Source Sans Pro", sans-serif;
   color: white;
   background-color: #1C1521;
 }
@@ -823,7 +823,7 @@ a:hover {
 }
 
 pre {
-  font: 300 12px/1.2 "Source Code", monospace;
+  font: 300 12px/1.2 "Source Code", "Source Code Pro",  monospace;
   color: rgb(223, 226, 238);
 }
 
