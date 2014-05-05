@@ -33,21 +33,21 @@
     <figure class="Section-example">
       <pre class="Section-example-code">
 <b>:root</b> {
-  var-purple: <b>#847AD1</b>;
-  var-large: <b>10px</b>;
+  --purple: <b>#847AD1</b>;
+  --large: <b>10px</b>;
 }
 
 <b>a</b> {
-  color: <em>var(purple)</em>;
+  color: <em>var(--purple)</em>;
 }
 
 <b>pre</b> {
-  padding: <em>var(large)</em>;
+  padding: <em>var(--large)</em>;
 }</pre>
       <pre class="Section-example-code">
 <b>:root</b> {
-  var-purple: <b>#847AD1</b>;
-  var-large: <b>10px</b>;
+  --purple: <b>#847AD1</b>;
+  --large: <b>10px</b>;
 }
 
 <b>a</b> {
@@ -66,7 +66,7 @@
     <figure class="Section-example">
       <pre class="Section-example-code">
 <b>pre</b> {
-  margin: <em>calc(var(large) * 2)</em>;
+  margin: <em>calc(var(--large) * 2)</em>;
 }</pre>
       <pre class="Section-example-code">
 <b>pre</b> {
@@ -81,11 +81,11 @@
     <figure class="Section-example">
       <pre class="Section-example-code">
 <b>a</b> {
-  color: var(<b>purple</b>);
+  color: var(<b>--purple</b>);
 }
 
 <b>a:hover</b> {
-  color: <em>color(var(purple) tint(20%))</em>;
+  color: <em>color(var(--purple) tint(20%))</em>;
 }</pre>
       <pre class="Section-example-code">
 <b>a</b> {
